@@ -56,10 +56,10 @@ async def play(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="• ꜱᴜᴘᴘᴏʀᴛ", url="t.me/superior_support"
+                    text="• ꜱᴜᴘᴘᴏʀᴛ", url="t.me/v3nom_support"
                 ),
                 InlineKeyboardButton(
-                    text="• ᴜᴘᴅᴀᴛᴇꜱ", url="t.me/superior_bots"
+                    text="• ᴜᴘᴅᴀᴛᴇꜱ", url="t.me/V3N0M_0P"
                 ),
             ]
         ]
@@ -130,7 +130,7 @@ async def play(_, m: Message):
                             await suhu.delete()
                             await m.reply_photo(
                                 photo=f"{IMG_1}",
-                                caption=f"💝 **ᴛʀᴀᴄᴋ ɪꜱ ᴀᴅᴅᴇᴅ ɪɴ Qᴜᴇᴜᴇ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}\n🔢 **ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
+                                caption=f"💝 **ᴛʀᴀᴄᴋ ɪꜱ ᴀᴅᴅᴇᴅ ɪɴ Qᴜᴇᴜᴇ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🎧 ** ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}\n🔢 **ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
                                 reply_markup=keyboard,
                             )
                         else:
@@ -146,7 +146,7 @@ async def play(_, m: Message):
                                 await suhu.delete()
                                 await m.reply_photo(
                                     photo=f"{IMG_2}",
-                                    caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
+                                    caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 ** ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
                                     reply_markup=keyboard,
                                 )
                             except Exception as ep:
@@ -175,7 +175,7 @@ async def play(_, m: Message):
                         await suhu.delete()
                         await m.reply_photo(
                             photo=f"{IMG_1}",
-                            caption=f"💝 **ᴛʀᴀᴄᴋ ɪꜱ ᴀᴅᴅᴇᴅ ɪɴ Qᴜᴇᴜᴇ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}\n🔢 **ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
+                            caption=f"💝 **ᴛʀᴀᴄᴋ ɪꜱ ᴀᴅᴅᴇᴅ ɪɴ Qᴜᴇᴜᴇ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🎧 ** ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}\n🔢 **ᴘᴏꜱɪᴛɪᴏɴ »** `{pos}`",
                             reply_markup=keyboard,
                         )
                     else:
@@ -191,7 +191,7 @@ async def play(_, m: Message):
                             await suhu.delete()
                             await m.reply_photo(
                                 photo=f"{IMG_2}",
-                                caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
+                                caption=f"☑️ **ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ:** [{songname}]({url})\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n💡 **ꜱᴛᴀᴛᴜꜱ:** `Playing`\n🎧 ** ᴜꜱᴇʀ ʙʏ:** {m.from_user.mention()}",
                                 reply_markup=keyboard,
                             )
                         except Exception as ep:
