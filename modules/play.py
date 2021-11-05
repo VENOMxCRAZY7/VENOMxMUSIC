@@ -415,7 +415,7 @@ async def m_cb(b, cb):
                 await cb.answer.reply_text("✅ <b>Skipped</b>")
                 await cb.message.edit((m_chat, qeue), reply_markup=r_ply(the_data))
                 await cb.message.reply_text(
-                    f"- ➡️ ꜱᴋɪᴘᴘᴇᴅ ꜱᴏɴɢ\n➡️ ɴᴏᴡ ᴘʟᴀʏɪɴɢ **{qeue[0][0]}**"
+                    f"- ➡️  𝙼𝙰 𝚇𝙷𝙾𝙳 𝙳𝙸 𝙶𝙰𝙽𝙴 𝙺𝙸 𝚂𝙺𝙸𝙿𝙿𝙴𝙳-ꜱᴏɴɢ\n➡️ ɴᴏᴡ ᴘʟᴀʏɪɴɢ **{qeue[0][0]}**"
                 )
 
     else:
@@ -489,7 +489,7 @@ async def ytplay(_, message: Message):
             f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add @{ASSISTANT_NAME} manually</i>"
         )
         return
-    await lel.edit("🔎>")
+    await lel.edit("𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙽𝙶 𝚃𝙾 𝚅𝙴𝙽𝙾𝙼 𝚂𝙴𝚁𝚅𝙴𝚁>")
     message.from_user.id
     message.from_user.first_name
 
@@ -497,7 +497,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("🎵")
+    await lel.edit("𝙼𝙸𝙻 𝙶𝚈𝙰 𝙶𝙰𝙽𝙰 𝚁𝚄𝙺 𝙱𝚂𝙳𝙺 𝙺𝙰𝚁 𝚁𝙷𝙰 𝙿𝙻𝙰𝚈")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -538,9 +538,9 @@ async def ytplay(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"
+                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/V3N0M_0P"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/V3NOM_Support"),
             ],
         ]
     )
@@ -580,7 +580,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="☑️ ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ {} 😎".format(
+            caption="☑️ 𝚅𝙴𝙽𝙾𝙼 ᴜꜱᴇʀ ʙʏ {} 😎".format(
                 message.from_user.mention()
             ),
         )
@@ -588,18 +588,18 @@ async def ytplay(_, message: Message):
         return await lel.delete()
 
 
-@Client.on_message(filters.command("zplay") & filters.group & ~filters.edited)
+@Client.on_message(filters.command("vplay") & filters.group & ~filters.edited)
 async def jiosaavn(client: Client, message_: Message):
     global que
     if message_.chat.id in DISABLED_GROUPS:
         return
-    lel = await message_.reply("🔎")
+    lel = await message_.reply("𝗥𝗨𝗞 𝗕𝗦𝗗𝗞 𝗞𝗥 𝗥𝗛𝗔 𝗣𝗟𝗔𝗬")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ZaidMusic"
+        user.first_name = "VENOMMusic"
     usar = user
     wew = usar.id
     try:
@@ -650,7 +650,7 @@ async def jiosaavn(client: Client, message_: Message):
     text = message_.text.split(" ", 1)
     query = text[1]
     res = lel
-    await res.edit(f"🔍")
+    await res.edit(f"RUK CHALA RHA HU TERA GANA")
     try:
         songs = await arq.saavn(query)
         if not songs.ok:
@@ -682,9 +682,9 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"
+                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/V3N0M_0P"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/v3nom_Support"),
             ],
         ]
     )
@@ -727,6 +727,6 @@ async def jiosaavn(client: Client, message_: Message):
         chat_id=message_.chat.id,
         reply_markup=keyboard,
         photo="final.png",
-        caption=f"ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ {sname} Via saavn",
+        caption=f"VENOM ᴜꜱᴇʀ ʙʏ {sname} Via saavn",
     )
     os.remove("final.png")
