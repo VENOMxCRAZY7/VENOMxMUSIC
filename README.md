@@ -18,7 +18,7 @@
 
 [@genStr_Bot](https://t.me/genStr_Bot)
 
-[![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@BoooCreative/StringSession-1#main.py)
+[![ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@VENOMxCRAZY/StringSession-1#main.py)
 
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
