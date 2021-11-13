@@ -436,7 +436,7 @@ async def ytplay(_, message: Message):
     global que
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("🔎 **ꜱᴇᴀʀᴄʜɪɴɢ...**")
+    lel = await message.reply("🔎 **𝗗𝗛𝗨𝗡𝗗 𝗥𝗛𝗔 𝗥𝗨𝗞𖦹㋡...**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -489,7 +489,7 @@ async def ytplay(_, message: Message):
             f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add @{ASSISTANT_NAME} manually</i>"
         )
         return
-    await lel.edit("𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙽𝙶 𝚃𝙾 𝚅𝙴𝙽𝙾𝙼 𝚂𝙴𝚁𝚅𝙴𝚁>")
+    await lel.edit("𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗡𝗚 𝗧𝗢 𝗩𝗘𝗡𝗢𝗠 𝗦𝗘𝗥𝗩𝗘𝗥 ♥︎♡>")
     message.from_user.id
     message.from_user.first_name
 
@@ -497,7 +497,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("𝙼𝙸𝙻 𝙶𝚈𝙰 𝙶𝙰𝙽𝙰 𝚁𝚄𝙺 𝙱𝚂𝙳𝙺 𝙺𝙰𝚁 𝚁𝙷𝙰 𝙿𝙻𝙰𝚈")
+    await lel.edit("𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗜𝗡𝗚 𝗦𝗢𝗡𝗚 𝗕𝗬 𝗩𝗘𝗡𝗢𝗠 𝗦𝗘𝗥𝗩𝗘𝗥")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -513,7 +513,7 @@ async def ytplay(_, message: Message):
         views = results[0]["views"]
 
     except Exception as e:
-        await lel.edit("🤔")
+        await lel.edit("𝗕𝗵𝗮𝗶 𝘆𝗿 𝗴𝗮𝗻𝗲 𝗸𝗮 𝗻𝗮𝗺𝗲 𝘁𝗼 𝗹𝗶𝗸𝗵 𝗮𝘁𝗹𝗲𝗮𝘀𝘁↺")
         print(str(e))
         return
     try:
