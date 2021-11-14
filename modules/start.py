@@ -66,8 +66,8 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("Donate", url=f"https://t.me/Timesisnotwaiting"),
-                    InlineKeyboardButton("Basic Guide", url=f"https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-11-12-16"),
+                    InlineKeyboardButton("Donate", url=f"https://t.me/VENOMxCRAZY"),
+                    InlineKeyboardButton("Basic Guide", url=f"https://telegra.ph/-11-14-961"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -79,7 +79,7 @@ async def start_private(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Source Code", url="https://github.com/Itsunknown-12/Zaid-Vc-Player"
+                        "Source Code", url="https://github.com/VENOMxCRAZY7/VENOMxMUSIC"
                     )
                 ],
             ]
@@ -101,7 +101,7 @@ async def start_group(client: Client, message: Message):
             [
                 InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "☑️ Channel", url=f"t.me/superior_bots"
+                    "☑️ Channel", url=f"t.me/V3N0M_0P"
                 ),
             ]
         ]
@@ -125,7 +125,7 @@ async def help(client: Client, message: Message):
 
 » **list of available commands !**
 
-⚡ __Powered by {BOT_NAME} Zaid__""",
+⚡ __Powered by {BOT_NAME} Venom__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="Basic Guide", url=f"https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-11-12-16")]]
         ),
