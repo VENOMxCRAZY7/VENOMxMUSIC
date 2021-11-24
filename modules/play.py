@@ -470,7 +470,7 @@ async def ytplay(_, message: Message):
                         message.chat.id, "🤖: ɪ'ᴍ ᴊᴏɪɴᴇᴅ ᴛᴏ ᴛʜɪꜱ ɢʀᴏᴜᴘ ꜰᴏʀ ᴘʟᴀʏɪɴɢ ᴍᴜꜱɪᴄ ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ"
                     )
                     await lel.edit(
-                        "✅ **ᴜꜱᴇʀʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴊᴏɪɴᴇᴅ ᴛʜɪꜱ ɢʀᴏᴜᴘ.**",
+                        "✅ **ᴜꜱᴇʀʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴊᴏɪɴᴇᴅ ᴛʜɪꜱ ɢʀᴏᴜᴘ..**",
                     )
 
                 except UserAlreadyParticipant:
